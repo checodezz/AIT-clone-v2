@@ -1,0 +1,112 @@
+header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #343a40;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h2 {
+    color: rgb(198, 195, 195);
+}
+
+.new {
+    text-decoration: none;
+    color: grey;
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+}
+
+.new:hover {
+    color: rgb(0, 255, 21);
+}
+
+
+.topul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-size: larger;
+    margin-top: 3%;
+}
+
+.topul li {
+    list-style: none;
+
+}
+
+.service {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0% 30%;
+
+}
+
+/* .service:first-child {
+    color: rgb(0, 255, 21);
+} */
+
+
+.about {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+figcaption {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.img1 {
+    float: left;
+    width: 100%;
+}
+
+.construction {
+    float: left;
+    width: 32.3%;
+    padding: 7px;
+}
+
+.img2 {
+    display: flex;
+    padding: 7px;
+
+}
+
+.design {
+    flex: 3;
+    padding: 7px;
+    width: 32.3%;
+}
+
+.img3 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.remod {
+    width: 483.062px;
+    height: 362.288px;
+    padding: 7px;
+    padding-bottom: 0px;
+}
+
+option {
+    border: none;
+    border-color: #343a40;
+}
+
+footer {
+    background-color: #343a40;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 0%;
+}
